@@ -240,6 +240,7 @@ input[type=number]::-webkit-outer-spin-button {
     background-color: #2f5e2f;
     width: 120px;
     padding: 10px;
+    margin-bottom: 30px;
     color: #ffffff;
     border: none;
     border-radius: 12px;
@@ -248,7 +249,7 @@ input[type=number]::-webkit-outer-spin-button {
 .rodape {
      display: flex;
      justify-content: space-between;
-     margin-top: 80px;
+     margin-bottom: 0;
      align-items: center;
      border-top: 1px solid #ccc;
      padding-top: 20px;
@@ -319,8 +320,8 @@ input[type=number]::-webkit-outer-spin-button {
 @media print {
 
   .rodape {
-
-    position: fixed;
+    
+    margin-top: 100%;
 
     bottom: 0;
 
@@ -330,4 +331,5 @@ input[type=number]::-webkit-outer-spin-button {
 
     padding-bottom: 10px;
   }
+
 }
