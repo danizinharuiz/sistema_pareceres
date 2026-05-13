@@ -154,9 +154,9 @@
                     Trata-se de solicitação de LICENÇA PARA CAPACITAÇÃO do(a) servidor(a) Requerente <span contenteditable="true"
                      class="campo-inline"></span>, ocupante do cargo <span contenteditable="true" class="campo-inline"></span>, 
                      o (a) qual requer a utilização da referida licença para a realização das seguintes atividades: <span contenteditable="true" 
-                     class="campo-grande"> </span> com carga horária total de <input type="number"> horas,
-                  para o período de <input type="number">dias e carga horária semanal de 
-                  <input type="number"> horas.
+                     class="campo-grande"> </span> com carga horária total de <input type="number" class="input-numero"> horas,
+                  para o período de <input type="number" class="input-numero">dias e carga horária semanal de 
+                  <input type="number" class="input-numero"> horas.
                 </p>
                 <p>
                     A Licença para Capacitação está prevista no Art. 87 da Lei no 8.112/1990, in verbis:
@@ -395,7 +395,8 @@
                      Neste sentido, considerando a concordância da Chefia Imediata e da Direção-Geral do Campus (ou Pró-Reitoria) 
                      com a proposta de licença capacitação apresentada pelo(a) servidor(a) interessado(a), esta Diretoria de Gestão de 
                      Pessoas é favorável à concessão da Licença para Capacitação ao (à) servidor (a) <span contenteditable="true" class="campo-inline"></span>, 
-                     ocupante do cargo de <span contenteditable="true" class="campo-inline"></span>, Matrícula SIAPE nº <input type="text" value="0000000"> lotado no(a) 
+                     ocupante do cargo de <span contenteditable="true" class="campo-inline"></span>, Matrícula SIAPE nº <input type="number" class="input-numero" value="0000000"> 
+                     lotado no(a) 
                      <select name="lotacao">
                         <option>Campus Abelardo Luz</option>
                         <option>Campus Araquari</option>
@@ -413,14 +414,16 @@
                         <option>Campus Sombrio</option>
                         <option>Campus Videira</option>
                         <option>Reitoria Administrativa</option>
-                     </select> para ação de desenvolvimento presencial ou à distância, no(a) <span contenteditable="true" class="campo-inline" aria-placeholder="Instituição Promotora"> </span> 
+                     </select> para ação de desenvolvimento presencial ou à distância, no(a) <span contenteditable="true" 
+                     class="campo-inline" aria-placeholder="Instituição Promotora"> </span> 
                       com fundamento no art. 87 da Lei nº 8.112, de 11 de dezembro de 1990, com a redação dada pela 
                       Lei nº 9.527, de 10 de dezembro de 1997, e na Nota técnica  SEI nº 43661/2022/ME, combinados com o art. 25 da 
                       Lei nº 9.527, de 10 de dezembro de 1997, com nova redação dada pelo Decreto nº 10.506, de 2 de outubro de 2020, 
-                      referente ao quinquênio compreendido entre  <input type="text" name="date"> a <input type="text" name="date">, 
-                      pelo prazo <input type="text"> dias,  de <input type="text" name="date"> a <input type="text" name="date">. 
-                      A licença Capacitação foi concedida para ação de desenvolvimento presencial ou à distância, conforme art. 25, I, do 
-                      Decreto 9.991/2019; código <select name="código">
+                      referente ao quinquênio compreendido entre  <input type="number" class="input-numero"  value="--/--/----"> a 
+                      <input type="number" class="input-numero" value="--/--/----">, pelo prazo <input type="number" class="input-numero"> dias,  
+                      de <input type="number" class="input-numero" value="--/--/----"> a <input type="number" class="input-numero" value="--/--/----">. 
+                      A licença Capacitação foi concedida para ação de desenvolvimento presencial ou à distância, conforme art. 25, I, 
+                      do Decreto 9.991/2019; código <select name="código">
                         <option>421</option>
                         <option>396</option>
                       </select>
@@ -444,7 +447,7 @@
 
                 </p>
 
-                    <button class="btn btn-outline-rosa"  onclick= "gerarPDF()">
+                    <button class="button-pdf"  onclick= "gerarPDF()">
                          Gerar PDF
                     </button>
             </form>

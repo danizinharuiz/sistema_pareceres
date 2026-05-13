@@ -168,6 +168,7 @@ table, th, td {
     border-radius: 12px;
 }
 
+
 select {
     border-radius: 10px;
     font-size: 16px;
@@ -191,7 +192,7 @@ select {
 
 .campo-grande {
   display: inline-block;
-  min-width: 300px;
+  min-width: 120px;
   border: 1px solid transparent;
   color: #000;
   padding: 2px 4px;
@@ -202,6 +203,12 @@ select {
 .campo-grande:focus {
     border: 2px solid #000;
     border-radius: 12px;
+}
+
+.input-numero {
+  width: 55px;
+  text-align: center;
+
 }
     
    #cargatotal, #cargasem, #dias {
@@ -228,18 +235,21 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0;
 }
 
-.btn {
+.button-pdf {
     font-weight: bolder;
     background-color: #2f5e2f;
+    width: 120px;
+    padding: 10px;
+    color: #ffffff;
     border: none;
     border-radius: 12px;
 }
 
 .rodape {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
-    align-items: center;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 80px;
+     align-items: center;
      border-top: 1px solid #ccc;
      padding-top: 20px;
 }
@@ -272,7 +282,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 @media print {
 
-  button {
+  .button-pdf {
     display: none;
   }
 
@@ -296,4 +306,28 @@ input[type=number]::-webkit-outer-spin-button {
     display: none;
   }
 
+}
+
+@media print {
+
+  body {
+    margin-bottom: 120px;
+  }
+
+}
+
+@media print {
+
+  .rodape {
+
+    position: fixed;
+
+    bottom: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    padding-bottom: 10px;
+  }
 }
