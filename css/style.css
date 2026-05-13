@@ -54,6 +54,7 @@ h4 {
     height: 200px;
     text-align: center;
     padding: 20px;
+    margin-top: 0;
     
 }
 
@@ -125,7 +126,8 @@ header img {
 }
 
 .tabela {
-    width: 70%;
+    width: 60%;
+    height: 150px;
     justify-self: center;
 
 }
@@ -139,7 +141,7 @@ table, th, td {
     
     border: 2px double black;
     border-collapse: collapse;
-    padding: 20px;
+    padding: 15px;
 
 }
 
@@ -218,7 +220,7 @@ select {
 
 blockquote {
     margin: 16px 0 16px 32px;
-    padding-left: 16px;
+    padding: 30px;
     font-style: italic;
     font-size: 0.85em;
 }
@@ -276,9 +278,6 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
-
-
-
 /*--@media--*/
 
 @media print {
@@ -309,27 +308,21 @@ input[type=number]::-webkit-outer-spin-button {
 
 }
 
-@media print {
 
-  body {
-    margin-bottom: 120px;
-  }
-
-}
 
 @media print {
 
-  .rodape {
-    
-    margin-top: 100%;
-
+  footer {
+ 
     bottom: 0;
 
     left: 0;
 
     width: 100%;
 
-    padding-bottom: 10px;
+    margin-top: 100%;
+
+   padding-bottom: 0;
   }
 
 }
