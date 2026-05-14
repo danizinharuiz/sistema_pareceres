@@ -213,8 +213,9 @@ select {
 }
     
    #cargatotal, #cargasem, #dias {
-    width: 45px;
+    width: 55px;
     border-radius: 10px;
+    text-align: center;
 }
 
 blockquote {
