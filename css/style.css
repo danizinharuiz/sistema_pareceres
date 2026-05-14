@@ -42,7 +42,7 @@ html {
 
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 h4 {
@@ -51,9 +51,9 @@ h4 {
 }
 .cabecalho {
     position: relative;
-    height: 200px;
+    height: 180px;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     margin-top: 0;
     
 }
@@ -127,7 +127,7 @@ header img {
 
 .tabela {
     width: 60%;
-    height: 150px;
+    height: 120px;
     justify-self: center;
 
 }
@@ -141,8 +141,7 @@ table, th, td {
     
     border: 2px double black;
     border-collapse: collapse;
-    padding: 15px;
-
+    padding: 12px;
 }
 
 .tramitacao input {
@@ -166,14 +165,14 @@ table, th, td {
 .texto input {
     border: none;
     background: transparent;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 12px;
 }
 
 
 select {
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .campo-inline {
@@ -222,7 +221,7 @@ blockquote {
     margin: 16px 0 16px 32px;
     padding: 30px;
     font-style: italic;
-    font-size: 0.85em;
+    font-size: 12px;
 }
 
 blockquote p {
@@ -324,7 +323,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
     width: 100%;
 
-    margin-top: 100%;
+    margin-top: 30px;
 
     padding-bottom: 0;
   }
